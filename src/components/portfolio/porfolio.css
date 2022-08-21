@@ -30,7 +30,7 @@
     opacity: .15;
 }
 .project img{
-    height: 350px;
+    height: 320px;
     transition:opacity 0.5s ease;
 }
 
