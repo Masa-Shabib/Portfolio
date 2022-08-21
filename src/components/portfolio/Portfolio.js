@@ -18,7 +18,7 @@ const Portfolio = () => {
             <img src={port} alt='project1'></img>
           </div>
           <h3>My Portfolio </h3>
-          <a href='https://github.com/Masa-Shabib/My-Portfolio' target="_blank">Gethub</a>
+          <a href='https://github.com/Masa-Shabib/Portfolio' target="_blank">Gethub</a>
         </div>
         <div className='project'>
           <div className='project-img'>
