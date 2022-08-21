@@ -3,8 +3,8 @@
     margin: 0 auto;
     display: grid;
     grid-template-columns: repeat(2,1fr);
-    gap: 1.5rem;
-    padding: 3rem;
+    gap: 2rem;
+    padding: 2rem;
     
 }
 .project{
@@ -27,11 +27,16 @@
     opacity: 1;
 }
 .project-img:hover img{
-    opacity: .15;
+    opacity: .2;
+    scale: 1.05;
+    box-shadow: 10px  10px  4px   var(--color-blue);
 }
 .project img{
+    margin-bottom: .5rem;
     height: 320px;
-    transition:opacity 0.5s ease;
+    box-shadow: 8px  8px  12px   var(--color-blue);
+    transition: var(--transition);
+    border-radius: 5%;
 }
 
 @media screen and (max-width: 1024px){
