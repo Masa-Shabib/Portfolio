@@ -1,0 +1,143 @@
+#about{
+    text-align: center;
+    width: 90%;
+    margin: 0 auto;
+}
+.aboutMe{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 4rem;
+}
+
+.myPic{
+    border-radius: 10%;
+    width: 45rem;
+    margin-right: 4rem;
+    background: linear-gradient(
+        45deg,
+        transparent,
+        #cfac53,
+        transparent
+    );
+    display: grid;
+    place-items: center;
+}
+.myPic img{
+    border-radius: 10%;
+    overflow: hidden;
+    transform: rotate(-10deg);
+    transition: var(--transition);
+}
+.myPic img:hover{
+    transform: rotate(0deg);
+}
+.pics{
+    display: flex;
+    justify-content: space-between;
+}
+.pics img{
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    width: 16rem;
+    border-radius: 10%;
+    transition: var(--transition);
+    cursor: pointer;
+}
+.pics img:hover{
+    transform: scale(1.2);
+}
+.popImage{
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.9);
+    width: 100%;
+    height: 100%;
+    z-index: 100;
+    display: none;
+}
+.popImage span{
+    position: absolute;
+    top: 0;
+    right: 10px;
+    font-size: 60px;
+    font-weight: bolder;
+    color: #fff;
+    cursor: pointer;
+    z-index: 100;
+}
+.popImage img{
+    position: absolute;
+    width: 32%;
+    top: 2%;
+    left: 30%;
+    /* transform: translate(-50%,-50%); */
+}
+.popImage p{
+    color: white;
+    position: absolute;
+    bottom: 5%;
+    left: 30%;
+}
+@media screen and (max-width: 1024px){
+    .myPic{
+        position: relative;
+        width: 25rem;
+        left: calc(50% - 13rem);
+        margin-bottom: 4rem;
+    }
+    .aboutMe{
+        display:block;
+    }
+    .pics img{
+        margin-top: 3rem;
+        margin-bottom: 2rem;
+        width: 9rem;
+        border-radius: 10%;
+    }
+    .popImage img{
+        width: 70%;
+        top: 15%;
+        left: 15%;
+        
+    }
+    .popImage p{
+        bottom: 10%;
+        left: 15%;
+    }
+    .popImage span{
+        font-size: 40px;
+    }
+    
+}
+@media screen and (max-width: 600px){
+    .myPic{
+        position: relative;
+        width: 10rem;
+        left: calc(50% - 5rem);
+        margin-bottom: 2rem;
+    }
+    .aboutMe{
+        margin-top: 2rem;
+        display:block;
+    }
+    p{
+        font-size: 11px;
+    }
+    .pics img{
+        margin-top: 1rem;
+        margin-bottom: 2rem;
+        width: 4rem;
+        border-radius: 10%;
+    }
+    .popImage img{
+        width: 80%;
+        top: 20%;
+        left: 10%;
+    }
+    .popImage p{
+        bottom: 15%;
+        left: 10%;
+    }
+}
