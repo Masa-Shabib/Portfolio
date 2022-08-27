@@ -75,7 +75,7 @@ a:hover{
     background: var(--color-yellow);
 }
 section{
-    height: 100vh;
+    min-height: 100vh;
     padding: 2rem;
     padding-top: 3rem;
     overflow: hidden;
