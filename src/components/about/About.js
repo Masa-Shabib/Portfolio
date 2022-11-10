@@ -26,9 +26,9 @@ const About = () => {
           <img src={Me} alt="alternatetext"/>
         </div>
         <div>
-          <p> I am  an architect who entered the programming world out of curiosity to learn and know 
-              more, and now I am perusing my career as a full-stack developer with 
-              the goal of connecting both of my careers together.
+          <p> I am an architect whos motivated for self-development and learning 
+            new things is what got me into the programming world to learn and know more. Now I am 
+            pursuing my career as a full-stack developer, with the goal of connecting both of my jobs together.
               Aside from coding and architecture I have a large passion for photography
             .When I'm not working,
              you'll probably find me taking or editing photos.</p>
