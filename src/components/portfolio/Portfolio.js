@@ -12,9 +12,9 @@ const Portfolio = () => {
       <div className='projects'>
       <div className='project'>
           <div className='project-img'>
-            <span className='disc'>I am an architect who entered the programming world out of 
-            curiosity to learn and know more, and now I am perusing my career as a full-stack 
-            developer with the goal of connecting both of my careers together. </span>
+            <span className='disc'>I am an architect whos motivated for self-development and learning 
+            new things is what got me into the programming world to learn and know more. Now I am 
+            pursuing my career as a full-stack developer, with the goal of connecting both of my jobs together. </span>
             <img src={port} alt='project1'></img>
           </div>
           <h3>My Portfolio </h3>
